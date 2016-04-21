@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sade/gitrepo/learning-cpp/mycpp/exercise-thread.cpp
+iostream
+-
+thread
+-
+vector
+-
+
+/home/sade/gitrepo/learning-cpp/mycpp/exercise-thread.hpp
+
+/home/sade/gitrepo/learning-cpp/mycpp/main.cpp
+iostream
+-
+exercise-thread.hpp
+/home/sade/gitrepo/learning-cpp/mycpp/exercise-thread.hpp
+

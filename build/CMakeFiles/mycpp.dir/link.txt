@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -lstdc++ -lpthread -g   CMakeFiles/mycpp.dir/main.cpp.o CMakeFiles/mycpp.dir/exercise-thread.cpp.o  -o mycpp -rdynamic 

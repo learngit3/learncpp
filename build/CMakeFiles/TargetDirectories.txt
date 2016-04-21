@@ -1,0 +1,7 @@
+/home/sade/gitrepo/learning-cpp/mycpp/build/CMakeFiles/install.dir
+/home/sade/gitrepo/learning-cpp/mycpp/build/CMakeFiles/list_install_components.dir
+/home/sade/gitrepo/learning-cpp/mycpp/build/CMakeFiles/rebuild_cache.dir
+/home/sade/gitrepo/learning-cpp/mycpp/build/CMakeFiles/mycpp.dir
+/home/sade/gitrepo/learning-cpp/mycpp/build/CMakeFiles/install/strip.dir
+/home/sade/gitrepo/learning-cpp/mycpp/build/CMakeFiles/install/local.dir
+/home/sade/gitrepo/learning-cpp/mycpp/build/CMakeFiles/edit_cache.dir
