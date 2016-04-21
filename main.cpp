@@ -1,6 +1,10 @@
 #include <iostream>
+#include "exercise-thread.hpp"
+
 
 int main(int argc, char **argv) {
-    std::cout << "Hello, world!" << std::endl;
-    return 0;
+  // multithreading
+  exercise::thread::main();
+
+  return 0;
 }
