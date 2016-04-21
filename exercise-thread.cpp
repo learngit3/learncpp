@@ -11,15 +11,17 @@ namespace exercise {
   
   namespace thread {
     void main(void) {
-      std::vector<std::thread> ths;
+      std::vector<std::thread> threads;
 
       for(std::size_t i = 0; i < thread_num; i++) {
-	ths.push_back(std::thread(job, i));
+	threads.push_back(std::thread(job, i));
       }
 
-      for(auto &th: ths) {
+      for(auto &th: threads) {
 	th.join();
       }
+
+      std::cout << "All threads are terminated!" << std::endl;
     }
   }
 }
