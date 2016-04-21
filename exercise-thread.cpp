@@ -4,7 +4,7 @@
 
 namespace exercise {
   const std::size_t thread_num = 100;
-  void job(std::size_t id) {
+  void job(const std::size_t id) {
     std::this_thread::sleep_for(std::chrono::microseconds(1));
     std::cout << "job id = " << id << std::endl;
   }
